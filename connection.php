@@ -4,12 +4,12 @@
     
         <?php
 
-        $hostname="localhost";
+       // Azure MySQL connection parameters
+        $host = 'museumhub.mysql.database.azure.com';  // Azure MySQL server name
+        $username = 'aidilVMdemo';  // Azure MySQL username
+        $password = 'AydeelVM110';  // Your MySQL password
+        $dbname = 'museumhub';  // Name of the database you imported
 
-        $user_sql="root";
-        $pass_sql="";
-
-        $dbname="museumhub";
 
         $condb=mysqli_connect($hostname,$user_sql,$pass_sql,$dbname);
 
