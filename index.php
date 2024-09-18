@@ -10,7 +10,7 @@
     <p>Click the button below to go to the login page.</p>
     
     <!-- Button to redirect to loginpage.php -->
-    <form action="loginpage.php" method="get">
+    <form action="testcon.php" method="get">
         <button type="submit">Go to Login Page</button>
     </form>
 </body>
