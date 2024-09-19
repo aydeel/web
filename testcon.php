@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 // Database connection parameters
 $host = 'museumhub.mysql.database.azure.com';
-$username = 'aidilVMdemo';
+$username = 'aidilVMdemo@museumhub';
 $password = 'AydeelVM110';
 $dbname = 'museumhub';
 
